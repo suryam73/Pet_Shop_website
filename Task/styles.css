@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 15px;
+    color: rgb(3, 3, 3);
+    margin-left: 10px;
+    font: bold;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.user-options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-options a {
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #e41e26;
+   
+}
+
+.nav-link {
+    color: #050505 !important;
+    
+}
+
+.collapse .dropdown{
+    margin-left: 700px !important;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.collapse  {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-nav ul{
+    margin-left: 700px !important;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #f5c6cb !important;
+    background-color: #a1151a;
+}
+
+
+
+.category-list {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+}
+
+.category-list h5 {
+    margin-bottom: 20px;
+}
+
+.category-list .list-group-item {
+    border: none;
+    padding: 10px 0;
+}
+
+.category-list .list-group-item li {
+    color: #000;
+    text-decoration: none;
+}
+
+.category-list .list-group-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.category-list .list-group-item a:hover {
+    text-decoration: underline;
+}
+
+.category-list .text-danger {
+    font-weight: bold;
+}
+
+.hero-banner {
+    position: relative;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
+.hero-banner img {
+    width: 100%;
+    height:auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+
+.hero-text h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+}
+
+.discount-badge {
+    background-color: #e41e26;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 10%;
+}
+
+.info-box {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+.info-box .content {
+    margin-right: 10px; /* Add spacing between the image and text */
+}
+
+.info-box img {
+    max-width: 100px; /* Adjust image size as needed */
+    margin-right: auto; /* Push the image to the right */
+}
+
+.deal-banner {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%; /* Adjust this as needed */
+    height: 80%;
+}
+
+.deal-banner img {
+    width: 108%; /* Adjust this as needed */
+    height: 485px; /* Adjust the height as needed */
+   
+}
+
+.deal-banner .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.deal-banner .countdown span {
+    background-color: #fff;
+    color: #721c24;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.deal-banner .btn-danger {
+    background-color: #721c24;
+    border: none;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.product-card .card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-card .card-text {
+    font-size: 1.1em;
+    color: #e41e26;
+}
+
+/* Include Font Awesome CSS in your project */
+
